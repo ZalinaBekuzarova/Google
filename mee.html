@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новая вкладка</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      width: 100%;
+    }
+
+    /* Выравниваем навигацию в правый верхний угол */
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 15px;
+      padding: 15px 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #3c4043;
+      font-size: 14px;
+    }
+
+    /* Заголовок Google по центру */
+    h1 {
+      font-size: 75px;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 30px;
+    }
+    
+    .button4{ 
+      color: #ff006a; 
+      width: 30px; 
+      height: 30px;
+      border-radius: 50%;
+    }
+    .button3{ 
+      color: #a6bfe7;
+      width: 30px; 
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    .button2 {
+      color: rgb(118, 220, 220);
+      background-color: rgb(1, 1, 56);
+      border: none;
+      padding: 10px 18px;
+      border-radius: 4px;
+      cursor: pointer;
+      justify-content: flex-end;
+      align-items: end;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка сайта -->
+  <header>
+    <nav>
+      <a href="#">Почта</a>
+      <a href="#">Картинки</a>
+      <button>⁝⁝⁝</button>
+     <button class="button4">Б</button>
+
+    </nav>
+  </header>
+
+  <main>
+    <section style="text-align: center;">
+      <h1>
+        <span style="color: #4285F4">G</span><span style="color: #EA4335">o</span><span style="color: #FBBC05">o</span><span style="color: #4285F4">g</span><span style="color: #34A853">l</span><span style="color: #EA4335">e</span>
+      </h1>
+
+    <div class="search-box">
+  <input type="text" class="search-input" placeholder="Google">
+  <span class="mic-icon">🎙️</span>
+  <span class="search-icon">📷</span>
+  
+</div>
+
+    <button class="button3">+</button>
+  <form>
+    <button class="button2" type="submit">✏️Настройки Chrome</button>
+  </form>
+    </section>
+  </main>
+
+</body>
+</html>
